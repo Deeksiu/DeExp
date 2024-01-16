@@ -11,15 +11,15 @@ function GonWebhook(Shinuqi)
     local script = [[
     $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
-    url = "https://cdn.discordapp.com/attachments/924776096799547434/1196889665605734460/Bigos.Rot_V1.png?ex=65b9455d&is=65a6d05d&hm=5254ecc42f3eb534e595a831149eee81b64c346c44b312a20ff71e004b50947a&"
+    url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
-    $title = '_DeExp_ - Rotation'
-    $description = "**]]..DeExp..[[**"
+    $title = 'Shinuqi#2111 - Rotation'
+    $description = "**]]..Shinuqi..[[**"
   
     $footer = [PSCustomObject]@{
-        icon_url = "https://cdn.discordapp.com/attachments/924776096799547434/1196889665605734460/Bigos.Rot_V1.png?ex=65b9455d&is=65a6d05d&hm=5254ecc42f3eb534e595a831149eee81b64c346c44b312a20ff71e004b50947a&"
-        text = "]].."_DeExp_ | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
+        icon_url = "https://cdn.discordapp.com/emojis/978628955907170314.gif?size=96&quality=lossless"
+        text = "]].."Shinuqi#2111 | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
     }
   
     $embedObject = [PSCustomObject]@{
